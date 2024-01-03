@@ -1,0 +1,91 @@
+a:2:{s:4:"data";a:1:{s:7:"content";s:5963:"                        <div class="top-menu ">
+                
+    <ul class="ty-menu__items cm-responsive-menu">
+                    <li class="ty-menu__item ty-menu__menu-btn visible-phone cm-responsive-menu-toggle-main">
+                <a class="ty-menu__item-link">
+                    <span 
+        class="ty-icon ty-icon-short-list"
+                                    ></span>
+                    <span>Меню</span>
+                </a>
+            </li>
+
+                                            
+                        <li class="ty-menu__item cm-menu-item-responsive  ty-menu-item__products">
+                                            <a class="ty-menu__item-toggle visible-phone cm-responsive-menu-toggle">
+                            <span 
+        class="ty-icon ty-icon-down-open ty-menu__icon-open"
+                                    ></span>
+                            <span 
+        class="ty-icon ty-icon-up-open ty-menu__icon-hide"
+                                    ></span>
+                        </a>
+                                        <a  class="ty-menu__item-link" >
+                        Все товары
+                    </a>
+                
+                                            <div class="ty-menu__submenu" id="topmenu_10_d41d8cd98f00b204e9800998ecf8427e">
+                                                            <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                                                                            <li class="ty-top-mine__submenu-col">
+                                                                                        <div class="ty-menu__submenu-item-header">
+                                                <a href="http://localhost:8000/elektronika/" class="ty-menu__submenu-link" >электроника</a>
+                                            </div>
+                                                                                            <a class="ty-menu__item-toggle visible-phone cm-responsive-menu-toggle">
+                                                    <span 
+        class="ty-icon ty-icon-down-open ty-menu__icon-open"
+                                    ></span>
+                                                    <span 
+        class="ty-icon ty-icon-up-open ty-menu__icon-hide"
+                                    ></span>
+                                                </a>
+                                                                                        <div class="ty-menu__submenu">
+                                                <ul class="ty-menu__submenu-list cm-responsive-menu-submenu">
+                                                                                                                                                                                                                                                                                            <li class="ty-menu__submenu-item">
+                                                                <a href="http://localhost:8000/elektronika/kompyutery/"                                                                        class="ty-menu__submenu-link" >Компютеры</a>
+                                                            </li>
+                                                                                                                                                                        
+                                                                                                    </ul>
+                                            </div>
+                                        </li>
+                                                                                                        </ul>
+                            
+                        </div>
+                    
+                            </li>
+                                            
+                        <li class="ty-menu__item cm-menu-item-responsive  ty-menu__item-nodrop ty-menu-item__brands">
+                                        <a  href="http://localhost:8000/index.php?dispatch=product_features.view_all&amp;filter_id=10" class="ty-menu__item-link" >
+                        Бренды
+                    </a>
+                            </li>
+                                            
+                        <li class="ty-menu__item cm-menu-item-responsive  ty-menu__item-nodrop ty-menu-item__newest">
+                                        <a  href="http://localhost:8000/index.php?dispatch=products.newest" class="ty-menu__item-link" >
+                        Новинки
+                    </a>
+                            </li>
+                                            
+                        <li class="ty-menu__item cm-menu-item-responsive  ty-menu__item-nodrop ty-menu-item__hits">
+                                        <a  href="http://localhost:8000/index.php?dispatch=products.bestsellers" class="ty-menu__item-link" >
+                        Хиты продаж
+                    </a>
+                            </li>
+                                            
+                        <li class="ty-menu__item cm-menu-item-responsive  ty-menu__item-nodrop ty-menu-item__sale">
+                                        <a  href="http://localhost:8000/index.php?dispatch=products.on_sale" class="ty-menu__item-link" >
+                        Скидки
+                    </a>
+                            </li>
+                                            
+                        <li class="ty-menu__item cm-menu-item-responsive  ty-menu__item-nodrop ty-menu-item__promotions">
+                                        <a  href="http://localhost:8000/promotions/" class="ty-menu__item-link" >
+                        Акции
+                    </a>
+                            </li>
+        
+        
+    </ul>
+
+
+                    </div>
+            ";}s:6:"expiry";i:0;}
