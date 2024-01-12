@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-02 13:11:56
+/* Smarty version 4.1.1, created on 2024-01-08 11:28:42
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/common/pagination.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6593e16cc5b777_69621055',
+  'unifunc' => 'content_659bb23a0501b5_50876884',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/tools.tpl' => 1,
   ),
 ),false)) {
-function content_6593e16cc5b777_69621055 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659bb23a0501b5_50876884 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('objects_per_page','pagination_range'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('hook', array('name'=>"common:pagination"));

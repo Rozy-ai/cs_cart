@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-03 09:41:27
+/* Smarty version 4.1.1, created on 2024-01-08 11:31:54
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/addons/yml_export/hooks/product_features/properties.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_65950197af0d31_64982725',
+  'unifunc' => 'content_659bb2fa4a52f0_38149675',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65950197af0d31_64982725 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659bb2fa4a52f0_38149675 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('yml_export.yml2_variants_unit','yml_export.yml2_exclude_from_price'));
 ?>
 <div class="control-group">

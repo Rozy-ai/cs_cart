@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-01 23:13:22
+/* Smarty version 4.1.1, created on 2024-01-05 13:34:37
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/addons/onboarding_guide/components/step.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_65931ce24bfcd4_86184454',
+  'unifunc' => 'content_6597db3d927aa1_24456343',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65931ce24bfcd4_86184454 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6597db3d927aa1_24456343 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 $_smarty_tpl->_assignInScope('is_open', $_smarty_tpl->tpl_vars['step']->value['status'] === smarty_modifier_enum("Addons\OnboardingGuide\StepStatusEnum::OPEN"));
 $_smarty_tpl->_assignInScope('is_completed', $_smarty_tpl->tpl_vars['step']->value['status'] === smarty_modifier_enum("Addons\OnboardingGuide\StepStatusEnum::COMPLETED"));
@@ -33,11 +33,11 @@ $_smarty_tpl->_assignInScope('data', fn_onboarding_guide_load_step_data($_smarty
     <div class="cm-tooltip" data-og-status-tooltip-step="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['step_id']->value, ENT_QUOTES, 'UTF-8');?>
 " title="<?php ob_start();
 echo $_smarty_tpl->__('onboarding_guide.step_close');
-$_prefixVariable1 = ob_get_clean();
+$_prefixVariable3 = ob_get_clean();
 ob_start();
 echo $_smarty_tpl->__('onboarding_guide.step_complete');
-$_prefixVariable2 = ob_get_clean();
-echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['is_completed']->value ? $_prefixVariable1 : $_prefixVariable2, ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable4 = ob_get_clean();
+echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['is_completed']->value ? $_prefixVariable3 : $_prefixVariable4, ENT_QUOTES, 'UTF-8');?>
 ">
       <div class="onboarding_accordion__item_checkbox">
         <label>

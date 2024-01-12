@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-02 13:12:01
+/* Smarty version 4.1.1, created on 2024-01-08 11:31:54
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/buttons/multiple_buttons.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6593e171e1b294_61970773',
+  'unifunc' => 'content_659bb2fa50e103_26148071',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/remove_item.tpl' => 1,
   ),
 ),false)) {
-function content_6593e171e1b294_61970773 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659bb2fa50e103_26148071 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 echo smarty_function_script(array('src'=>"js/tygh/node_cloning.js"),$_smarty_tpl);?>
 

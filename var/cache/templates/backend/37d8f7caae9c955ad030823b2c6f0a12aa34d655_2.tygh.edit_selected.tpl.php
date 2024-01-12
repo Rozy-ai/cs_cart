@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-02 13:09:02
+/* Smarty version 4.1.1, created on 2024-01-05 14:19:11
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/views/categories/components/context_menu/edit_selected.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6593e0bebba9b7_02344081',
+  'unifunc' => 'content_6597e5af8ae477_28345298',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6593e0bebba9b7_02344081 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6597e5af8ae477_28345298 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('edit_selected'));
 ?>
 

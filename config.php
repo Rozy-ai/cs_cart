@@ -125,7 +125,7 @@ define('SESSION_ONLINE', 60 * 5); // 5 minutes
 define('INSTALL_DB_EXECUTION', SECONDS_IN_HOUR); // 1 hour
 
 //Uncomment to enable the developer tools: debugger, PHP and SQL loggers, etc.
-//define('DEBUG_MODE', true);
+define('DEBUG_MODE', true);
 
 //Uncomment to enable error reporting.
 //define('DEVELOPMENT', true);

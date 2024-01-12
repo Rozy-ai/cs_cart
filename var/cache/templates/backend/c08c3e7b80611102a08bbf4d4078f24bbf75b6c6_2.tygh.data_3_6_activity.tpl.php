@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-01 23:13:22
+/* Smarty version 4.1.1, created on 2024-01-05 20:26:11
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/views/index/components/analytics_section/analytics_data/data_3_6_activity.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_65931ce279cc41_46300508',
+  'unifunc' => 'content_65983bb3066176_90976607',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65931ce279cc41_46300508 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65983bb3066176_90976607 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('dashboard.analytics_card.activity','dashboard.view_all','order'));
 if ($_smarty_tpl->tpl_vars['logs']->value && fn_check_view_permissions("logs.manage","GET")) {
@@ -35,8 +35,8 @@ $_smarty_tpl->_assignInScope('item_name', $_smarty_tpl->__($_smarty_tpl->tpl_var
 if ($_smarty_tpl->tpl_vars['item']->value['action']) {
 ob_start();
 echo $_smarty_tpl->__($_smarty_tpl->tpl_vars['_action']->value);
-$_prefixVariable22=ob_get_clean();
-$_smarty_tpl->_assignInScope('item_name', ((string)$_smarty_tpl->tpl_vars['item_name']->value)."&nbsp;(".$_prefixVariable22.")");
+$_prefixVariable18=ob_get_clean();
+$_smarty_tpl->_assignInScope('item_name', ((string)$_smarty_tpl->tpl_vars['item_name']->value)."&nbsp;(".$_prefixVariable18.")");
 }
 if ($_smarty_tpl->tpl_vars['item']->value['type'] === "users" && fn_check_view_permissions(fn_url("profiles.update?user_id=".((string)$_smarty_tpl->tpl_vars['item']->value['content']['id'])),"GET")) {
 $_smarty_tpl->_assignInScope('item_description', $_smarty_tpl->tpl_vars['item']->value['content']['user']);
@@ -47,8 +47,8 @@ $_smarty_tpl->_assignInScope('item_description_href', "profiles.update?user_id="
 $_smarty_tpl->_assignInScope('item_name', ((string)$_smarty_tpl->tpl_vars['item_name']->value)." ".((string)$_smarty_tpl->tpl_vars['item']->value['content']['status']));
 ob_start();
 echo $_smarty_tpl->__("order");
-$_prefixVariable23=ob_get_clean();
-$_smarty_tpl->_assignInScope('item_description', $_prefixVariable23."&nbsp;".((string)$_smarty_tpl->tpl_vars['item']->value['content']['order']));
+$_prefixVariable19=ob_get_clean();
+$_smarty_tpl->_assignInScope('item_description', $_prefixVariable19."&nbsp;".((string)$_smarty_tpl->tpl_vars['item']->value['content']['order']));
 $_smarty_tpl->_assignInScope('item_description_href', "orders.details?order_id=".((string)$_smarty_tpl->tpl_vars['item']->value['content']['id']));
 } elseif ($_smarty_tpl->tpl_vars['item']->value['type'] === "products" && fn_check_view_permissions(fn_url("products.update?product_id=".((string)$_smarty_tpl->tpl_vars['item']->value['content']['id'])),"GET")) {
 $_smarty_tpl->_assignInScope('item_description', $_smarty_tpl->tpl_vars['item']->value['content']['product']);

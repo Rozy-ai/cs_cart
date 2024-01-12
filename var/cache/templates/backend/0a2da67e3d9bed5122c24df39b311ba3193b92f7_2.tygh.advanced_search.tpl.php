@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-02 13:11:56
+/* Smarty version 4.1.1, created on 2024-01-08 11:28:42
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/common/advanced_search.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6593e16ceca564_31030711',
+  'unifunc' => 'content_659bb23a024af6_54975918',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_6593e16ceca564_31030711 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659bb23a024af6_54975918 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),2=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('object_exists','advanced_search','advanced_search','save_this_search_as','name','name','save','cancel','advanced_search_options'));
 echo smarty_function_script(array('src'=>"js/tygh/advanced_search.js"),$_smarty_tpl);?>
@@ -118,14 +118,14 @@ echo $_smarty_tpl->__("name");
 if ($_COOKIE[$_smarty_tpl->tpl_vars['a_id']->value]) {
 echo " hidden";
 }
-$_prefixVariable13=ob_get_clean();
-$_smarty_tpl->_assignInScope('icon_chevron_down', "icon-chevron-down cm-combination cm-save-state".$_prefixVariable13);?>
+$_prefixVariable5=ob_get_clean();
+$_smarty_tpl->_assignInScope('icon_chevron_down', "icon-chevron-down cm-combination cm-save-state".$_prefixVariable5);?>
             <?php ob_start();
 if (!$_COOKIE[$_smarty_tpl->tpl_vars['a_id']->value]) {
 echo " hidden";
 }
-$_prefixVariable14=ob_get_clean();
-$_smarty_tpl->_assignInScope('icon_chevron_up', "icon-chevron-up cm-combination cm-save-state".$_prefixVariable14);?>
+$_prefixVariable6=ob_get_clean();
+$_smarty_tpl->_assignInScope('icon_chevron_up', "icon-chevron-up cm-combination cm-save-state".$_prefixVariable6);?>
             <?php echo smarty_function_include_ext(array('file'=>"common/icon.tpl",'class'=>$_smarty_tpl->tpl_vars['icon_chevron_down']->value,'id'=>"on_".((string)$_smarty_tpl->tpl_vars['a_id']->value)),$_smarty_tpl);?>
 
             <?php echo smarty_function_include_ext(array('file'=>"common/icon.tpl",'class'=>$_smarty_tpl->tpl_vars['icon_chevron_up']->value,'id'=>"off_".((string)$_smarty_tpl->tpl_vars['a_id']->value)),$_smarty_tpl);?>

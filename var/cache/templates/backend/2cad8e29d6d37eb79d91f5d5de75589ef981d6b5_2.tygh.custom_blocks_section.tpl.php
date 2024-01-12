@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-01 23:13:22
+/* Smarty version 4.1.1, created on 2024-01-05 20:26:10
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/views/index/components/custom_blocks_section/custom_blocks_section.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_65931ce26b6e84_50501229',
+  'unifunc' => 'content_65983bb2ec6a06_22098374',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/popupbox.tpl' => 1,
   ),
 ),false)) {
-function content_65931ce26b6e84_50501229 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65983bb2ec6a06_22098374 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('custom_blocks.sections.onboarding_title','custom_blocks.create_block','custom_blocks.use_this_space','custom_blocks.edit_block','custom_blocks.create_block'));
 $_smarty_tpl->_assignInScope('show_custom_blocks_section', (($tmp = $_smarty_tpl->tpl_vars['show_custom_blocks_section']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));
@@ -54,12 +54,12 @@ $_smarty_tpl->_assignInScope('custom_blocks_section', $_tmp_array);
 $_smarty_tpl->_assignInScope('return_url', rawurlencode((string)$_smarty_tpl->tpl_vars['config']->value['current_url']));
 ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum("CustomBlockSections::ONBOARDING"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable5 = ob_get_clean();
-$_smarty_tpl->_assignInScope('section', (($tmp = $_smarty_tpl->tpl_vars['section']->value ?? null)===null||$tmp==='' ? $_prefixVariable5 ?? null : $tmp));
+$_prefixVariable1 = ob_get_clean();
+$_smarty_tpl->_assignInScope('section', (($tmp = $_smarty_tpl->tpl_vars['section']->value ?? null)===null||$tmp==='' ? $_prefixVariable1 ?? null : $tmp));
 ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum("CustomBlockTypes::BLOCK"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable6 = ob_get_clean();
-$_smarty_tpl->_assignInScope('type', (($tmp = $_smarty_tpl->tpl_vars['type']->value ?? null)===null||$tmp==='' ? $_prefixVariable6 ?? null : $tmp));
+$_prefixVariable2 = ob_get_clean();
+$_smarty_tpl->_assignInScope('type', (($tmp = $_smarty_tpl->tpl_vars['type']->value ?? null)===null||$tmp==='' ? $_prefixVariable2 ?? null : $tmp));
 if ($_smarty_tpl->tpl_vars['custom_blocks_section']->value['content'] || $_smarty_tpl->tpl_vars['custom_blocks_section']->value['title']) {
 $_smarty_tpl->_assignInScope('create_block_button_text', $_smarty_tpl->__("custom_blocks.create_block"));
 $_smarty_tpl->_assignInScope('create_block_button_class', "custom-blocks-section__create custom-blocks-section__create--center");

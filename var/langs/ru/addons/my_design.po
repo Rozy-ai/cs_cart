@@ -1,0 +1,14 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::my_design"
+msgid "My design"
+msgstr "1) Мой дизайн"
+
+msgctxt "Addons::description::my_design"
+msgid "My design"
+msgstr "Мой дизайн description"

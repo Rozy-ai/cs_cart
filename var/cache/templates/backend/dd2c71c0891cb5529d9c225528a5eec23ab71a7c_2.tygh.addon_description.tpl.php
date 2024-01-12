@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-01 23:27:42
+/* Smarty version 4.1.1, created on 2024-01-12 10:44:37
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/views/addons/components/manage/addon_description.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6593203e1bfe96_74800210',
+  'unifunc' => 'content_65a0ede5044096_34552915',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/addons/components/addons/addon_license_required.tpl' => 1,
   ),
 ),false)) {
-function content_6593203e1bfe96_74800210 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65a0ede5044096_34552915 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('new_addon'));
 $_smarty_tpl->_assignInScope('show_version', (($tmp = $_smarty_tpl->tpl_vars['show_version']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));

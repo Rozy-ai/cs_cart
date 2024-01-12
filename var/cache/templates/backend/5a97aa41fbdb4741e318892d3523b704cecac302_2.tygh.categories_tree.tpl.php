@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-02 13:09:02
+/* Smarty version 4.1.1, created on 2024-01-05 14:19:11
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/views/categories/components/categories_tree.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6593e0bebf2d93_90212659',
+  'unifunc' => 'content_6597e5af8da1f8_26827396',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/categories/components/categories_tree.tpl' => 2,
   ),
 ),false)) {
-function content_6593e0bebf2d93_90212659 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6597e5af8da1f8_26827396 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/lib/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),));
 \Tygh\Languages\Helper::preloadLangVars(array('position_short','expand_collapse_list','expand_collapse_list','expand_collapse_list','expand_collapse_list','name','products','status','expand_sublist_of_items','expand_sublist_of_items','expand_sublist_of_items','expand_sublist_of_items','collapse_sublist_of_items','collapse_sublist_of_items','expand_sublist_of_items','expand_sublist_of_items','expand_sublist_of_items','expand_sublist_of_items','collapse_sublist_of_items','collapse_sublist_of_items','disabled','add_product','edit','category_deletion_side_effects','delete'));
 if ($_smarty_tpl->tpl_vars['parent_id']->value) {?>
@@ -206,8 +206,8 @@ if (!$_smarty_tpl->tpl_vars['category']->value['subcategories']) {?> normal<?php
 </li>
                             <li><?php ob_start();
 echo $_smarty_tpl->__("category_deletion_side_effects");
-$_prefixVariable1=ob_get_clean();
-$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"list",'class'=>"cm-confirm",'data'=>array("data-ca-confirm-text"=>$_prefixVariable1),'text'=>$_smarty_tpl->__("delete"),'href'=>"categories.delete?category_id=".((string)$_smarty_tpl->tpl_vars['category']->value['category_id']),'method'=>"POST"), true);?>
+$_prefixVariable18=ob_get_clean();
+$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"list",'class'=>"cm-confirm",'data'=>array("data-ca-confirm-text"=>$_prefixVariable18),'text'=>$_smarty_tpl->__("delete"),'href'=>"categories.delete?category_id=".((string)$_smarty_tpl->tpl_vars['category']->value['category_id']),'method'=>"POST"), true);?>
 </li>
                         <?php $_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);?>
                         <?php $_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'dropdown', array('content'=>$_smarty_tpl->smarty->ext->_capture->getBuffer($_smarty_tpl, 'tools_items')), true);?>

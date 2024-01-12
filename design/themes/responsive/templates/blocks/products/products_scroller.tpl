@@ -54,7 +54,7 @@
 >
     {foreach from=$items item="product" name="for_products"}
         {hook name="products:product_scroller_list"}
-        <div class="ty-scroller-list__item ty-scroller__item">
+        <div class="ty-scroller-list__item ty-scroller__item 22">
             {hook name="products:product_scroller_list_item"}
             {$obj_id="scr_`$block.block_id`000`$product.product_id`"}
             <div class="ty-scroller-list__img-block">

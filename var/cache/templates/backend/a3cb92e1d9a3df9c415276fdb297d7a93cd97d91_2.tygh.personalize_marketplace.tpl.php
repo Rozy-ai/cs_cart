@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-01 23:13:22
+/* Smarty version 4.1.1, created on 2024-01-05 13:34:37
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/addons/onboarding_guide/steps/personalize_marketplace/personalize_marketplace.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_65931ce25b21c3_44783130',
+  'unifunc' => 'content_6597db3dac3dd2_61472006',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/onboarding_guide/steps/personalize_marketplace/tabs/tab_3.tpl' => 1,
   ),
 ),false)) {
-function content_65931ce25b21c3_44783130 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6597db3dac3dd2_61472006 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('onboarding_guide.sb_personalize_your_marketplace_description','onboarding_guide.personalize_your_marketplace_description','onboarding_guide.theme_and_logo','onboarding_guide.business_details','onboarding_guide.languages_and_currency','onboarding_guide.logos_updated'));
 echo smarty_function_script(array('src'=>"js/addons/onboarding_guide/steps/personalize_marketplace.js"),$_smarty_tpl);?>

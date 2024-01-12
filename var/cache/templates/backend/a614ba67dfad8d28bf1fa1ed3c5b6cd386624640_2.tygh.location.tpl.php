@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-02 13:08:59
+/* Smarty version 4.1.1, created on 2024-01-05 14:24:20
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/views/block_manager/render/location.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6593e0bb8a2702_59067812',
+  'unifunc' => 'content_6597e6e4b593d9_52236523',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6593e0bb8a2702_59067812 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6597e6e4b593d9_52236523 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- start location-->
 	<?php echo $_smarty_tpl->tpl_vars['containers']->value['top_panel'];?>
 

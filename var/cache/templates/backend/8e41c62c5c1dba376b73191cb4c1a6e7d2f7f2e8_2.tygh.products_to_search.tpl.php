@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-02 19:09:11
+/* Smarty version 4.1.1, created on 2024-01-08 11:28:41
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/common/products_to_search.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6594352734d8c1_06020391',
+  'unifunc' => 'content_659bb239ef7822_16793843',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/products/picker.tpl' => 1,
   ),
 ),false)) {
-function content_6594352734d8c1_06020391 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659bb239ef7822_16793843 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('add','or_saved_search'));
 if ($_smarty_tpl->tpl_vars['search']->value['p_ids']) {?>
     <?php $_smarty_tpl->_assignInScope('product_ids', explode(",",$_smarty_tpl->tpl_vars['search']->value['p_ids']));

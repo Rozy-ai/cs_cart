@@ -56,7 +56,7 @@ if (isset($_REQUEST['check_https'])) {
     die(defined('HTTPS') ? 'OK' : '');
 }
 
-// Check if software is installed
+// Check if software is installedx
 if ($config['db_host'] == '%DB_HOST%') {
     die(PRODUCT_NAME . ' is <b>not installed</b>. Please click here to start the installation process: <a href="install/">[install]</a>');
 }

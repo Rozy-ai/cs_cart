@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-01 23:13:16
+/* Smarty version 4.1.1, created on 2024-01-05 20:25:54
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/views/index/index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_65931cdcde1d72_87436733',
+  'unifunc' => 'content_65983ba2bca804_31272605',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -26,7 +26,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/share.tpl' => 1,
   ),
 ),false)) {
-function content_65931cdcde1d72_87436733 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65983ba2bca804_31272605 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('dashboard','installer_complete_title','welcome_screen.administrator_info','admin_panel','welcome_screen.go_admin_panel','welcome_screen.go_settings_wizard','settings_wizard','welcome_screen.run_settings_wizard','storefront','welcome_screen.go_storefront','welcome_screen.learn_more_configuration','welcome_screen.knowledge_base','welcome_screen.thanks'));
 echo smarty_function_script(array('src'=>"js/tygh/tabs.js"),$_smarty_tpl);?>
@@ -75,8 +75,8 @@ if ($_smarty_tpl->tpl_vars['show_welcome']->value) {?>
         <?php } else { ?>
             <?php ob_start();
 echo htmlspecialchars((string) fn_url($_smarty_tpl->tpl_vars['config']->value['http_location']), ENT_QUOTES, 'UTF-8');
-$_prefixVariable20=ob_get_clean();
-$_smarty_tpl->_assignInScope('link_storefront', $_prefixVariable20);?>
+$_prefixVariable1=ob_get_clean();
+$_smarty_tpl->_assignInScope('link_storefront', $_prefixVariable1);?>
         <?php }?>
         <div class="welcome-screen">
             <p>

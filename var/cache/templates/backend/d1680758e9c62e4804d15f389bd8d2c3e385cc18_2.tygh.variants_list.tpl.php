@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-01-03 09:41:27
+/* Smarty version 4.1.1, created on 2024-01-08 11:31:54
   from '/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/design/backend/templates/views/product_features/components/variants_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_65950197b1f8d6_04447175',
+  'unifunc' => 'content_659bb2fa4d26c3_50239724',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/attach_images.tpl' => 1,
   ),
 ),false)) {
-function content_65950197b1f8d6_04447175 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659bb2fa4d26c3_50239724 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),2=>array('file'=>'/Applications/XAMPP/xamppfiles/htdocs/cscart_v4.17.2_ru/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 \Tygh\Languages\Helper::preloadLangVars(array('add_variant','expand_collapse_list','expand_collapse_list','expand_collapse_list','expand_collapse_list','position_short','variant','expand_collapse_list','expand_collapse_list','expand_collapse_list','expand_collapse_list','position_short','variant','information','image','description','page_title','url','meta_description','meta_keywords'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "control_toolbar", null, null);?>
